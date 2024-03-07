@@ -1,6 +1,8 @@
 import React from 'react'
 import "../styles/Midnavbar.css"
-import {Link} from "react-router-dom"
+import {Link, } from "react-router-dom"
+import { Routes,Route } from 'react-router-dom';
+import Login from './Login';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch,faLocationDot,faShoppingCart,faUser} from '@fortawesome/free-solid-svg-icons';
@@ -38,9 +40,13 @@ const Midnavbar = () => {
                 
             </div>
             <div className="login">
-               <Link to="./login" className='midnav3'>
+               <Link to="/login" className='midnav3'>
                     <FontAwesomeIcon icon={faUser} className="user-icon" style={{ color: '#ffffff',padding:"5px",fontSize:"18px"}} />Login
                </Link>
+               
+               <Routes>
+                  <Route path='/login' element={<Login/>}/>
+               </Routes>
                
             </div>
         </div>

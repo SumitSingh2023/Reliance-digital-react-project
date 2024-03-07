@@ -1,0 +1,28 @@
+.logincard{
+    margin: auto;
+    border: 2px solid red;
+    width: 300px;
+    padding: 40px;
+    
+    
+}
+
+.label{
+    font-weight: 500;
+    color: aqua;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.input{
+    border: 1px solid black;
+    width: 100%;
+}
+
+.button{
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border: 1px solid black;
+}

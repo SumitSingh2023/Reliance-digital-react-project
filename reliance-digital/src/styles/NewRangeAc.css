@@ -1,0 +1,73 @@
+.NewRangeAc{
+    width: 100%;
+    height: 100%;
+    margin-top: 8px;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+    padding: 24px 20px 24px 20px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+
+.Ac-item{
+    display: flex;
+    margin-top: 20px;
+    box-shadow: 0px -5px 3px -6px rgba(0, 0, 0, 0.35);
+}
+
+.Ac-button{
+    background:#003380;
+    padding:5px 10px 5px 10px;
+    color:white;
+    margin-left:5px;
+    font-size:11px
+}
+
+.Ac-child-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.image{
+    height: 48%;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+}
+.image:hover{
+    transition: transform .6s ease-in-out;
+    transform: scale(1.2);
+}
+
+.title{
+    padding: 10px;
+    color: rgb(64, 64, 244);
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.title:hover{
+    color: red;
+}
+
+.offerprice{
+    color: rgb(102,102,102);
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+.mrp{
+    color: rgb(102,102,102);
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+.yousave{
+    color: rgb(102,102,102);
+    font-size: 13px;
+    padding-left: 10px;
+
+}
+
